@@ -27,13 +27,6 @@ export default function Home() {
 
       {/*Header section start*/}
       {/* Header section ends*/}
-      {/*search form*/}
-      <form action="" id="search-form">
-        <input type="search" placeholder="search here..." name="" id="search-box" />
-        <label htmlFor="search-box" className="fas fa-search" />
-        <i className="fas fa-times" id="close1" />
-      </form>
-      {/*Search Form ends*/}
       {/*Home section start*/}
       <section className="home" id="home-section">
         {/*Add*/}

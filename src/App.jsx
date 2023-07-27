@@ -20,7 +20,9 @@ function App() {
 
   return (
     <>
+      {/* Navigation Bar */}
       <NavigationMenu />
+
       {/* All routes */}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -30,6 +32,8 @@ function App() {
         <Route path="/barbeque" element={<Barbeque />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      
+      {/* Footer */}
       <Footer />
     </>
   )

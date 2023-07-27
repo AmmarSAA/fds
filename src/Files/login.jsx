@@ -10,14 +10,6 @@ import "./login.css";
 export default function Login() {
   return (
     <>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Login/Register</title>
-      <link rel="stylesheet" href="login.css" />
-      <link
-        rel="icon"
-        href="./Images/Restaurants/download.png"
-        type="image/icon type"
-      />
       <div className="container">
         <div className="loginbg">
           <div className="box signin">

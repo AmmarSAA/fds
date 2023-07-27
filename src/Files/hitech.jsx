@@ -5,97 +5,16 @@
 ******************************/
 
 import React from 'react'
+import "hitech.css"
+import RatingForm from '../Componenets/RatingForm'
 
 export default function hitech() {
   return (
     <>
-  <meta charSet="UTF-8" />
-  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hi-Tech | Bawarchi</title>
-  <link
-    rel="icon"
-    href="./Images/Restaurants/download.png"
-    type="image/icon type"
-  />
-  <link rel="stylesheet" href="hitech.css" />
   {/*Header section start*/}
-  <header>
-    <a href="#" className="logo">
-      <i className="fa fa-utensils" />
-      Foodies.
-    </a>
-    <nav className="navbar">
-      <a className="active" href="./home.jsx">
-        Home
-      </a>
-      <a href="./dishes.jsx">dishes</a>
-      <a href="#" onClick="openAbout()">
-        about
-      </a>
-      <a href="./contact.jsx">Contact us</a>
-      <a className="feed" id="feedback">
-        feedback
-      </a>
-      <a href="#">Orders</a>
-    </nav>
-    <div className="icons">
-      <i className="fas fa-bars" id="menu-bars" />
-      <i className="fas fa-search" id="search-icon" />
-      <a href="#" className="fas fa-heart" />
-      <a href="#" className="fas fa-shopping-cart" />
-      <i className="fa fa-user" aria-hidden="true" />
-      <a href="login.jsx" className="fas fa-sign-in-alt" />
-    </div>
-    {/*search form*/}
-    <form action="" id="search-form">
-      <input
-        type="search"
-        placeholder="search here..."
-        name=""
-        id="search-box"
-      />
-      <label htmlFor="search-box" className="fas fa-search" />
-      <i className="fas fa-times" id="close1" />
-    </form>
-    {/*Search Form ends*/}
-  </header>
+  
   {/*Rating Form starts*/}
-  <div className="back">
-    <div className="container1" id="co1">
-      <div className="post">
-        <div className="text">Thanks for Rating us!</div>
-        <div className="edit">Edit</div>
-        <i className="fas fa-times" id="close" />
-      </div>
-      <div className="star-widget">
-        <input type="radio" name="rate" id="rate-5" />
-        <label htmlFor="rate-5" className="fas fa-star" />
-        <input type="radio" name="rate" id="rate-4" />
-        <label htmlFor="rate-4" className="fas fa-star" />
-        <input type="radio" name="rate" id="rate-3" />
-        <label htmlFor="rate-3" className="fas fa-star" />
-        <input type="radio" name="rate" id="rate-2" />
-        <label htmlFor="rate-2" className="fas fa-star" />
-        <input type="radio" name="rate" id="rate-1" />
-        <label htmlFor="rate-1" className="fas fa-star" />
-        <form action="#">
-          <i className="fas fa-times" id="close" />
-          <h4 />
-          <div className="textarea">
-            <textarea
-              cols={30}
-              placeholder="Describe your experience"
-              defaultValue={""}
-            />
-          </div>
-          <div className="btn">
-            <button type="submit">Post</button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
+  <RatingForm />
   {/*Rating form ends*/}
   {/*side bar*/}
   <nav className="sidebar">
