@@ -17,7 +17,7 @@ export const Barbeque = () => (
       {/*side bar*/}
       <nav className="sidebar">
         <div className="text">
-          <a href="./Barbeque.html">
+          <a href="/barbeque">
             <i className="fa fa-home" />
           </a>
           <ul>
