@@ -9,6 +9,9 @@ import './dishes.css'
 import RatingForm from '../Componenets/RatingForm'
 
 export default function Dishes() {
+  const closeNav = () => {
+
+  };
   return (
     <>
       {/*Header section start*/}
@@ -221,7 +224,7 @@ export default function Dishes() {
         </div>
       </section>
       <div id="about" className="about">
-        <a href="#" className="closebtn" onClick="closeNav()">
+        <a href="#" className="closebtn" onClick={closeNav()}>
           ×
         </a>
         <div className="about-overlay">
