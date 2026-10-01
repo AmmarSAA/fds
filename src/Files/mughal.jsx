@@ -5,6 +5,7 @@
 ********************************/
 
 import React from 'react'
+import './mughal.css'
 import RatingForm from '../Componenets/RatingForm'
 
 export default function mughal() {

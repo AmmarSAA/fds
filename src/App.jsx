@@ -4,8 +4,8 @@
 * Output: Main Page    *
 ***********************/
 
-import React, { lazy, Suspense } from "react"; // Add this line for the useState hook
-import { Route, Routes } from "react-router-dom";
+import React, { lazy, Suspense, useLayoutEffect } from "react"; // Add this line for the useState hook
+import { Route, Routes, useLocation } from "react-router-dom";
 import Login from "./Files/login";
 import Home from "./Files/home";
 import Contact from "./Files/contact";
@@ -29,6 +29,12 @@ const RamKiBandi = lazy(() => import("./Files/ramkibandi"));
 const Vantilu = lazy(() => import("./Files/ventilu"));
 
 function App() {
+  const { pathname } = useLocation();
+  useLayoutEffect(() => {
+    const page = pathname.split('/')[1] || 'home';
+    const pages = ['home', 'login', 'contact', 'dishes', 'barbeque', 'dominos', 'fishland', 'hitech', 'hoteladaab', 'hotnspicy', 'ksbakers', 'mehfil', 'mughal', 'paradise', 'platform65', 'ramkibandi', 'vantilu'];
+    document.documentElement.dataset.foodiesPage = pages.includes(page) ? page : 'home';
+  }, [pathname]);
 
   return (
     <>
