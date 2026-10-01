@@ -18,37 +18,37 @@ export default function fishland() {
   {/*side bar*/}
   <nav className="sidebar">
     <div className="text">
-      <a href="./fishland.jsx">
+      <a href="#/fishland">
         <i className="fa fa-home" />
       </a>
       <ul>
         <li>
-          <a href="#biryani" onClick="myfun()">
+          <a href="#biryani" onClick={(event) => { event.preventDefault(); document.getElementById("biryani")?.scrollIntoView({ behavior: "smooth" }); }}>
             Biryani's
           </a>
         </li>
         <li>
-          <a href="#start" onClick="myfunction()">
+          <a href="#start" onClick={(event) => { event.preventDefault(); document.getElementById("start")?.scrollIntoView({ behavior: "smooth" }); }}>
             Starter's
           </a>
         </li>
         <li>
-          <a href="#roti" onClick="myroti()">
+          <a href="#roti" onClick={(event) => { event.preventDefault(); document.getElementById("roti")?.scrollIntoView({ behavior: "smooth" }); }}>
             Roti's
           </a>
         </li>
         <li>
-          <a href="#curry" onClick="mycurry()">
+          <a href="#curry" onClick={(event) => { event.preventDefault(); document.getElementById("curry")?.scrollIntoView({ behavior: "smooth" }); }}>
             Curry's
           </a>
         </li>
         <li>
-          <a href="#fast" onClick="myfastfood()">
+          <a href="#fast" onClick={(event) => { event.preventDefault(); document.getElementById("fast")?.scrollIntoView({ behavior: "smooth" }); }}>
             Fast food
           </a>
         </li>
         <li>
-          <a href="#tandoori" onClick="mytandoori()">
+          <a href="#tandoori" onClick={(event) => { event.preventDefault(); document.getElementById("tandoori")?.scrollIntoView({ behavior: "smooth" }); }}>
             Tandoori
           </a>
         </li>
@@ -85,7 +85,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹180</span>
+        <span>â‚¹180</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -101,7 +101,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹110</span>
+        <span>â‚¹110</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -117,7 +117,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹120</span>
+        <span>â‚¹120</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -133,7 +133,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹250</span>
+        <span>â‚¹250</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -149,7 +149,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹160</span>
+        <span>â‚¹160</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -165,7 +165,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹150</span>
+        <span>â‚¹150</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -189,7 +189,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹250</span>
+        <span>â‚¹250</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -205,7 +205,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹250</span>
+        <span>â‚¹250</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -221,7 +221,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹300</span>
+        <span>â‚¹300</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -237,7 +237,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹220</span>
+        <span>â‚¹220</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -253,7 +253,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹240</span>
+        <span>â‚¹240</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -269,7 +269,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹240</span>
+        <span>â‚¹240</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -285,7 +285,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹240</span>
+        <span>â‚¹240</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -301,7 +301,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹240</span>
+        <span>â‚¹240</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -317,7 +317,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹240</span>
+        <span>â‚¹240</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -333,7 +333,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹240</span>
+        <span>â‚¹240</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -349,7 +349,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹240</span>
+        <span>â‚¹240</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -372,7 +372,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹40</span>
+        <span>â‚¹40</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -388,7 +388,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹15</span>
+        <span>â‚¹15</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -404,7 +404,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹35</span>
+        <span>â‚¹35</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -420,7 +420,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹20</span>
+        <span>â‚¹20</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -436,7 +436,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹35</span>
+        <span>â‚¹35</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -452,7 +452,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹25</span>
+        <span>â‚¹25</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -468,7 +468,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹20</span>
+        <span>â‚¹20</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -491,7 +491,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹350</span>
+        <span>â‚¹350</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -507,7 +507,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹359</span>
+        <span>â‚¹359</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -523,7 +523,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹220</span>
+        <span>â‚¹220</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -539,7 +539,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹210</span>
+        <span>â‚¹210</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -555,7 +555,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹210</span>
+        <span>â‚¹210</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -571,7 +571,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹210</span>
+        <span>â‚¹210</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -587,7 +587,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹210</span>
+        <span>â‚¹210</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -603,7 +603,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹210</span>
+        <span>â‚¹210</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -619,7 +619,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹210</span>
+        <span>â‚¹210</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -642,7 +642,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹269</span>
+        <span>â‚¹269</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -658,7 +658,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹209</span>
+        <span>â‚¹209</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -674,7 +674,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹35</span>
+        <span>â‚¹35</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -690,7 +690,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹189</span>
+        <span>â‚¹189</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -706,7 +706,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹189</span>
+        <span>â‚¹189</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -729,7 +729,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹120</span>
+        <span>â‚¹120</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -745,7 +745,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹320</span>
+        <span>â‚¹320</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -761,7 +761,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹90</span>
+        <span>â‚¹90</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -777,7 +777,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -793,7 +793,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -809,7 +809,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -825,7 +825,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -841,7 +841,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -857,7 +857,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -873,7 +873,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -889,7 +889,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -905,7 +905,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -921,7 +921,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹110</span>
+        <span>â‚¹110</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -937,7 +937,7 @@ export default function fishland() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹110</span>
+        <span>â‚¹110</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -946,13 +946,13 @@ export default function fishland() {
     </div>
   </section>
   <div className="arrow">
-    <a href="#home">
+    <a href="#home" onClick={(event) => { event.preventDefault(); document.getElementById("home")?.scrollIntoView({ behavior: "smooth" }); }}>
       <i className="fas fa-arrow-up" />
     </a>
   </div>
   <div id="about" className="about">
-    <a href="#" className="closebtn" onClick="closeNav()">
-      ×
+    <a href="#" className="closebtn" onClick={(event) => { event.preventDefault(); const about = document.getElementById("about"); if (about) about.style.width = "0%"; }}>
+      Ã—
     </a>
     <div className="about-overlay">
       <h1>About us</h1>

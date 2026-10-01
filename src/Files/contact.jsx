@@ -49,7 +49,7 @@ export default function Contact() {
   </div>
   <div className="contact">
     <h1>Contact Us</h1>
-    <form className="form" action="./home.html" id="form">
+    <form className="form" id="form" onSubmit={(event) => { event.preventDefault(); window.alert("Portfolio demo: your message was not sent."); }}>
       <label htmlFor="uname">Name:</label>
       <input
         type="text"
@@ -67,7 +67,7 @@ export default function Contact() {
         defaultValue={""}
       />
       <br />
-      <input type="submit" className="submit" onClick="myFunction()" />
+      <input type="submit" className="submit" />
     </form>
   </div>
 </>

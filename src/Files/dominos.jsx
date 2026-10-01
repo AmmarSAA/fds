@@ -18,22 +18,22 @@ export default function dominos() {
   {/*side bar*/}
   <nav className="sidebar">
     <div className="text">
-      <a href="./dominos.jsx">
+      <a href="#/dominos">
         <i className="fa fa-home" />
       </a>
       <ul>
         <li>
-          <a href="#pizza" onClick="myfun()">
+          <a href="#pizza" onClick={(event) => { event.preventDefault(); document.getElementById("pizza")?.scrollIntoView({ behavior: "smooth" }); }}>
             Veg Pizza
           </a>
         </li>
         <li>
-          <a href="#nonpizza" onClick="myfunction()">
+          <a href="#nonpizza" onClick={(event) => { event.preventDefault(); document.getElementById("nonpizza")?.scrollIntoView({ behavior: "smooth" }); }}>
             Non-veg Pizza
           </a>
         </li>
         <li>
-          <a href="#Mania" onClick="myroti()">
+          <a href="#Mania" onClick={(event) => { event.preventDefault(); document.getElementById("Mania")?.scrollIntoView({ behavior: "smooth" }); }}>
             Pizza Mania
           </a>
         </li>
@@ -70,7 +70,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹199</span>
+        <span>â‚¹199</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -86,7 +86,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹99</span>
+        <span>â‚¹99</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -102,7 +102,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹79</span>
+        <span>â‚¹79</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -118,7 +118,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹65</span>
+        <span>â‚¹65</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -134,7 +134,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹165</span>
+        <span>â‚¹165</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -150,7 +150,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹180</span>
+        <span>â‚¹180</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -173,7 +173,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹439</span>
+        <span>â‚¹439</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -189,7 +189,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹499</span>
+        <span>â‚¹499</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -205,7 +205,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹220</span>
+        <span>â‚¹220</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -221,7 +221,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹439</span>
+        <span>â‚¹439</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -237,7 +237,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹379</span>
+        <span>â‚¹379</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -253,7 +253,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹619</span>
+        <span>â‚¹619</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -269,7 +269,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹610</span>
+        <span>â‚¹610</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -285,7 +285,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹438</span>
+        <span>â‚¹438</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -301,7 +301,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹440</span>
+        <span>â‚¹440</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -324,7 +324,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹339</span>
+        <span>â‚¹339</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -340,7 +340,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹339</span>
+        <span>â‚¹339</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -356,7 +356,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹199</span>
+        <span>â‚¹199</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -372,7 +372,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹399</span>
+        <span>â‚¹399</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -388,7 +388,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹399</span>
+        <span>â‚¹399</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -404,7 +404,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹399</span>
+        <span>â‚¹399</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -420,7 +420,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹399</span>
+        <span>â‚¹399</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -436,7 +436,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹459</span>
+        <span>â‚¹459</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -452,7 +452,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹459</span>
+        <span>â‚¹459</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -468,7 +468,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -484,7 +484,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -500,7 +500,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -516,7 +516,7 @@ export default function dominos() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹110</span>
+        <span>â‚¹110</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -526,8 +526,8 @@ export default function dominos() {
   </section>
   {/*Footer Section*/}
   <div id="about" className="about">
-    <a href="#" className="closebtn" onClick="closeNav()">
-      ×
+    <a href="#" className="closebtn" onClick={(event) => { event.preventDefault(); const about = document.getElementById("about"); if (about) about.style.width = "0%"; }}>
+      Ã—
     </a>
     <div className="about-overlay">
       <h1>About us</h1>

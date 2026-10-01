@@ -7,7 +7,7 @@
 import React, { useEffect, useState } from 'react';
 
 function openAbout() {
-  document.getElementById("about").style.width = "100%";
+  const about = document.getElementById("about"); if (about) about.style.width = "100%";
 }
 
 function closeNav() {
@@ -32,21 +32,22 @@ export default function NavigationMenu() {
           <img src="./Images/loader/loader.gif" />
         </div>
       )}
+      <div role="note" style={{ marginTop: "80px", padding: "8px", textAlign: "center", background: "#fff3cd" }}>Portfolio demo: ordering, payments and account sign-in are not connected to a backend.</div>
       <header>
       <a href="#" className="logo">
         <i className="fa fa-utensils" />
         Foodies.
       </a>
       <nav className="navbar">
-        <a href="/">Home</a>
-        <a href="/dishes">dishes</a>
-        <a href="#" onClick={openAbout}>
+        <a href="#/">Home</a>
+        <a href="#/dishes">dishes</a>
+        <a href="#" onClick={(event) => { event.preventDefault(); openAbout(); }}>
           about
         </a>
         <a className="feed" id="feedback">
           feedback
         </a>
-        <a href="/contact">Contact us</a>
+        <a href="#/contact">Contact us</a>
         <a href="#">Orders</a>
       </nav>
       <div className="icons">
@@ -55,7 +56,7 @@ export default function NavigationMenu() {
         <a href="#" className="fas fa-heart" />
         <a href="#" className="fas fa-shopping-cart" />
         <i className="fa fa-user" aria-hidden="true" />
-        <a href="login.jsx" className="fas fa-sign-in-alt" />
+        <a href="#/login" className="fas fa-sign-in-alt" />
       </div>
       {/*search form*/}
       <form action="" id="search-form">

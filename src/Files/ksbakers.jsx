@@ -17,42 +17,42 @@ export default function ksbakers() {
   {/*side bar*/}
   <nav className="sidebar">
     <div className="text">
-      <a href="./ksbakers.jsx">
+      <a href="#/ksbakers">
         <i className="fa fa-home" />
       </a>
       <ul>
         <li>
-          <a href="#cakes" onClick="myfun()">
+          <a href="#cakes" onClick={(event) => { event.preventDefault(); document.getElementById("cakes")?.scrollIntoView({ behavior: "smooth" }); }}>
             Regular Cakes
           </a>
         </li>
         <li>
-          <a href="#precakes" onClick="myfunction()">
+          <a href="#precakes" onClick={(event) => { event.preventDefault(); document.getElementById("precakes")?.scrollIntoView({ behavior: "smooth" }); }}>
             Premium Cakes
           </a>
         </li>
         <li>
-          <a href="#pastry" onClick="mypastry()">
+          <a href="#pastry" onClick={(event) => { event.preventDefault(); document.getElementById("pastry")?.scrollIntoView({ behavior: "smooth" }); }}>
             Pastries
           </a>
         </li>
         <li>
-          <a href="#burger" onClick="myburger()">
+          <a href="#burger" onClick={(event) => { event.preventDefault(); document.getElementById("burger")?.scrollIntoView({ behavior: "smooth" }); }}>
             Burgers
           </a>
         </li>
         <li>
-          <a href="#bread" onClick="mybread()">
+          <a href="#bread" onClick={(event) => { event.preventDefault(); document.getElementById("bread")?.scrollIntoView({ behavior: "smooth" }); }}>
             Bread
           </a>
         </li>
         <li>
-          <a href="#sandwich" onClick="mysandwich()">
+          <a href="#sandwich" onClick={(event) => { event.preventDefault(); document.getElementById("sandwich")?.scrollIntoView({ behavior: "smooth" }); }}>
             Sandwich
           </a>
         </li>
         <li>
-          <a href="#nonpizza" onClick="mypizza()">
+          <a href="#nonpizza" onClick={(event) => { event.preventDefault(); document.getElementById("nonpizza")?.scrollIntoView({ behavior: "smooth" }); }}>
             Pizza
           </a>
         </li>
@@ -89,7 +89,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹28</span>
+        <span>â‚¹28</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -105,7 +105,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹60</span>
+        <span>â‚¹60</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -121,7 +121,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹30</span>
+        <span>â‚¹30</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -138,7 +138,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹99</span>
+          <span>â‚¹99</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -155,7 +155,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹40</span>
+        <span>â‚¹40</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -172,7 +172,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹129</span>
+          <span>â‚¹129</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -196,7 +196,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹88</span>
+        <span>â‚¹88</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -212,7 +212,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹109</span>
+        <span>â‚¹109</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -228,7 +228,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹94</span>
+        <span>â‚¹94</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -245,7 +245,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹99</span>
+          <span>â‚¹99</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -263,7 +263,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹121</span>
+          <span>â‚¹121</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -281,7 +281,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹127</span>
+          <span>â‚¹127</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -299,7 +299,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹149</span>
+          <span>â‚¹149</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -316,7 +316,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹50</span>
+        <span>â‚¹50</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -332,7 +332,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹85</span>
+        <span>â‚¹85</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -348,7 +348,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹116</span>
+        <span>â‚¹116</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -364,7 +364,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹95</span>
+        <span>â‚¹95</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -387,7 +387,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹88</span>
+        <span>â‚¹88</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -403,7 +403,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹109</span>
+        <span>â‚¹109</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -419,7 +419,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹94</span>
+        <span>â‚¹94</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -436,7 +436,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹99</span>
+          <span>â‚¹99</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -454,7 +454,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹121</span>
+          <span>â‚¹121</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -472,7 +472,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹127</span>
+          <span>â‚¹127</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -490,7 +490,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹149</span>
+          <span>â‚¹149</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -507,7 +507,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹50</span>
+        <span>â‚¹50</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -523,7 +523,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹85</span>
+        <span>â‚¹85</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -539,7 +539,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹116</span>
+        <span>â‚¹116</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -555,7 +555,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹95</span>
+        <span>â‚¹95</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -578,7 +578,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹127</span>
+        <span>â‚¹127</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -594,7 +594,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹73</span>
+        <span>â‚¹73</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -610,7 +610,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹109</span>
+        <span>â‚¹109</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -627,7 +627,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹73</span>
+          <span>â‚¹73</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -645,7 +645,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹73</span>
+          <span>â‚¹73</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -663,7 +663,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹109</span>
+          <span>â‚¹109</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -681,7 +681,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹109</span>
+          <span>â‚¹109</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -699,7 +699,7 @@ export default function ksbakers() {
             <i className="fas fa-star" />
             <i className="fas fa-star-half-alt" />
           </div>
-          <span>₹109</span>
+          <span>â‚¹109</span>
           <br />
           <a href="#" className="btn">
             Add to cart
@@ -723,7 +723,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹936</span>
+        <span>â‚¹936</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -739,7 +739,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹1099</span>
+        <span>â‚¹1099</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -755,7 +755,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹1034</span>
+        <span>â‚¹1034</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -771,7 +771,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹1034</span>
+        <span>â‚¹1034</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -794,7 +794,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹180</span>
+        <span>â‚¹180</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -810,7 +810,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹1204</span>
+        <span>â‚¹1204</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -826,7 +826,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹968</span>
+        <span>â‚¹968</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -842,7 +842,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹800</span>
+        <span>â‚¹800</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -858,7 +858,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹110</span>
+        <span>â‚¹110</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -874,7 +874,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹1108</span>
+        <span>â‚¹1108</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -890,7 +890,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹540</span>
+        <span>â‚¹540</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -913,7 +913,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹439</span>
+        <span>â‚¹439</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -929,7 +929,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹499</span>
+        <span>â‚¹499</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -945,7 +945,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹220</span>
+        <span>â‚¹220</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -961,7 +961,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹439</span>
+        <span>â‚¹439</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -977,7 +977,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹379</span>
+        <span>â‚¹379</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -993,7 +993,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹619</span>
+        <span>â‚¹619</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1009,7 +1009,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹610</span>
+        <span>â‚¹610</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1025,7 +1025,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹438</span>
+        <span>â‚¹438</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1041,7 +1041,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹440</span>
+        <span>â‚¹440</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1057,7 +1057,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹339</span>
+        <span>â‚¹339</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1073,7 +1073,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹339</span>
+        <span>â‚¹339</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1089,7 +1089,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹199</span>
+        <span>â‚¹199</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1105,7 +1105,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹399</span>
+        <span>â‚¹399</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1121,7 +1121,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹399</span>
+        <span>â‚¹399</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1137,7 +1137,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹399</span>
+        <span>â‚¹399</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1153,7 +1153,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹399</span>
+        <span>â‚¹399</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1169,7 +1169,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹459</span>
+        <span>â‚¹459</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1185,7 +1185,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹459</span>
+        <span>â‚¹459</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1201,7 +1201,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1217,7 +1217,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1233,7 +1233,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1249,7 +1249,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹110</span>
+        <span>â‚¹110</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1272,7 +1272,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹704</span>
+        <span>â‚¹704</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1288,7 +1288,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹638</span>
+        <span>â‚¹638</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1304,7 +1304,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹688</span>
+        <span>â‚¹688</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1320,7 +1320,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹720</span>
+        <span>â‚¹720</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1336,7 +1336,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹140</span>
+        <span>â‚¹140</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1352,7 +1352,7 @@ export default function ksbakers() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹660</span>
+        <span>â‚¹660</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -1361,13 +1361,13 @@ export default function ksbakers() {
     </div>
   </section>
   <div className="arrow">
-    <a href="#home">
+    <a href="#home" onClick={(event) => { event.preventDefault(); document.getElementById("home")?.scrollIntoView({ behavior: "smooth" }); }}>
       <i className="fas fa-arrow-up" />
     </a>
   </div>
   <div id="about" className="about">
-    <a href="#" className="closebtn" onClick="closeNav()">
-      ×
+    <a href="#" className="closebtn" onClick={(event) => { event.preventDefault(); const about = document.getElementById("about"); if (about) about.style.width = "0%"; }}>
+      Ã—
     </a>
     <div className="about-overlay">
       <h1>About us</h1>

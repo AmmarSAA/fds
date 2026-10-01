@@ -27,7 +27,7 @@ export default function Dishes() {
         <hr className="line" />
         <div className="box-container">
           <div className="box">
-            <a href="/barbeque">
+            <a href="#/barbeque">
               <img src="./Images/Restaurants/barbeque.jpg" />
             </a>
             <h3>Barbeque</h3>
@@ -42,7 +42,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./mehfil.jsx">
+            <a href="#/mehfil">
               <img src="./Images/Restaurants/mehfil.jpg" />
             </a>
             <h3>Mehfil</h3>
@@ -57,7 +57,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./dominos.jsx">
+            <a href="#/dominos">
               <img src="./Images/Restaurants/dominos.jpg" />
             </a>
             <h3>Domino's</h3>
@@ -72,7 +72,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./paradise.jsx">
+            <a href="#/paradise">
               <img src="./Images/Restaurants/paradise.jpg" />
             </a>
             <h3>Paradise</h3>
@@ -87,7 +87,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./ramkibandi.jsx">
+            <a href="#/ramkibandi">
               <img src="./Images/Restaurants/ramkibandi.jpg" />
             </a>
             <h3>Ram ki Bandi</h3>
@@ -102,7 +102,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./vantilu.jsx">
+            <a href="#/vantilu">
               <img src="./Images/Restaurants/vantilu.jpeg" />
             </a>
             <h3>Vantillu</h3>
@@ -117,7 +117,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./platform65.jsx">
+            <a href="#/platform65">
               <img src="./Images/Restaurants/platform65.jpg" />
             </a>
             <h3>Platform 65</h3>
@@ -132,7 +132,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./hoteladaab.jsx">
+            <a href="#/hoteladaab">
               <img src="./Images/Restaurants/aadab.png" />
             </a>
             <h3>Hotel Adaab</h3>
@@ -147,7 +147,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./fishland.jsx">
+            <a href="#/fishland">
               <img src="./Images/Restaurants/fishland.jpg" />
             </a>
             <h3>Fish Land</h3>
@@ -162,7 +162,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./hitech.jsx">
+            <a href="#/hitech">
               <img src="./Images/Restaurants/hitech.jpg" />
             </a>
             <h3>hitech</h3>
@@ -177,7 +177,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./hotnspicy.jsx">
+            <a href="#/hotnspicy">
               <img src="./Images/Restaurants/hotnspicy.jpg" />
             </a>
             <h3>Hot N Spicy</h3>
@@ -192,7 +192,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./mughal.jsx">
+            <a href="#/mughal">
               <img src="./Images/Restaurants/mughal.jpg" />
             </a>
             <h3>Mughal Restaurants</h3>
@@ -207,7 +207,7 @@ export default function Dishes() {
             </div>
           </div>
           <div className="box">
-            <a href="./ksbakers.jsx">
+            <a href="#/ksbakers">
               <img src="./Images/Restaurants/ksbakers.png" />
             </a>
             <h3>KS Bakers</h3>
@@ -225,7 +225,7 @@ export default function Dishes() {
       </section>
       <div id="about" className="about">
         <a href="#" className="closebtn" onClick={closeNav()}>
-          ×
+          Ã—
         </a>
         <div className="about-overlay">
           <h1>About us</h1>
