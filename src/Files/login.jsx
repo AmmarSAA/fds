@@ -28,7 +28,7 @@ export default function Login() {
               <h3>Sign In</h3>
               <input type="text" placeholder="Username" />
               <input type="password" placeholder="Password" />
-              <a href="/home">
+              <a href="#/">
                 <input type="button" value="Login" />
               </a>
               <a href="#" className="forgot">

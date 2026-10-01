@@ -35,7 +35,7 @@ export default function Footer() {
                         <h4>Foodies</h4>
                         <ul>
                             <li>
-                                <a href="#" onClick={() => openAbout()}>about us</a>
+                                <a href="#" onClick={(event) => { event.preventDefault(); const about = document.getElementById("about"); if (about) about.style.width = "100%"; }}>about us</a>
                             </li>
                             <li>
                                 <a href="#">Our services</a>
@@ -72,16 +72,16 @@ export default function Footer() {
                         <h4>Order Now</h4>
                         <ul>
                             <li>
-                                <a href="/dishes">Biryani's</a>
+                                <a href="#/dishes">Biryani's</a>
                             </li>
                             <li>
-                                <a href="/dishes">Restaurants</a>
+                                <a href="#/dishes">Restaurants</a>
                             </li>
                             <li>
-                                <a href="/dishes">Starters</a>
+                                <a href="#/dishes">Starters</a>
                             </li>
                             <li>
-                                <a href="/dishes">Fast food</a>
+                                <a href="#/dishes">Fast food</a>
                             </li>
                         </ul>
                     </div>

@@ -28,14 +28,14 @@ export default function ramkibandi() {
       Foodies.
     </a>
     <nav className="navbar">
-      <a className="active" href="./home.jsx">
+      <a className="active" href="#/">
         Home
       </a>
-      <a href="./dishes.jsx">dishes</a>
-      <a href="#" onClick="openAbout()">
+      <a href="#/dishes">dishes</a>
+      <a href="#">
         about
       </a>
-      <a href="./contact.jsx">Contact us</a>
+      <a href="#/contact">Contact us</a>
       <a className="feed" id="feedback">
         feedback
       </a>
@@ -47,7 +47,7 @@ export default function ramkibandi() {
       <a href="#" className="fas fa-heart" />
       <a href="#" className="fas fa-shopping-cart" />
       <i className="fa fa-user" aria-hidden="true" />
-      <a href="login.jsx" className="fas fa-sign-in-alt" />
+      <a href="#/login" className="fas fa-sign-in-alt" />
     </div>
     {/*search form*/}
     <form action="" id="search-form">
@@ -68,12 +68,12 @@ export default function ramkibandi() {
   {/*side bar*/}
   <nav className="sidebar">
     <div className="text">
-      <a href="./ramkibandi.jsx">
+      <a href="#/ramkibandi">
         <i className="fa fa-home" />
       </a>
       <ul>
         <li>
-          <a href="#fast" onClick="mybreakfast()">
+          <a href="#fast" onClick={(event) => { event.preventDefault(); document.getElementById("fast")?.scrollIntoView({ behavior: "smooth" }); }}>
             Break Fast
           </a>
         </li>
@@ -110,7 +110,7 @@ export default function ramkibandi() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹40</span>
+        <span>â‚¹40</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -126,7 +126,7 @@ export default function ramkibandi() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹50</span>
+        <span>â‚¹50</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -142,7 +142,7 @@ export default function ramkibandi() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹60</span>
+        <span>â‚¹60</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -158,7 +158,7 @@ export default function ramkibandi() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹40</span>
+        <span>â‚¹40</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -174,7 +174,7 @@ export default function ramkibandi() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹30</span>
+        <span>â‚¹30</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -190,7 +190,7 @@ export default function ramkibandi() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹45</span>
+        <span>â‚¹45</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -206,7 +206,7 @@ export default function ramkibandi() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹25</span>
+        <span>â‚¹25</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -222,7 +222,7 @@ export default function ramkibandi() {
           <i className="fas fa-star" />
           <i className="fas fa-star-half-alt" />
         </div>
-        <span>₹30</span>
+        <span>â‚¹30</span>
         <br />
         <a href="#" className="btn">
           Add to cart
@@ -231,8 +231,8 @@ export default function ramkibandi() {
     </div>
   </section>
   <div id="about" className="about">
-    <a href="#" className="closebtn" onClick="closeNav()">
-      ×
+    <a href="#" className="closebtn" onClick={(event) => { event.preventDefault(); const about = document.getElementById("about"); if (about) about.style.width = "0%"; }}>
+      Ã—
     </a>
     <div className="about-overlay">
       <h1>About us</h1>

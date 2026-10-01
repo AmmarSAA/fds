@@ -51,27 +51,27 @@ export default function Home() {
           <h2>Our Specials</h2>
         </div>
         <div className="table">
-          <a href="./dishes.jsx">
+          <a href="#/dishes">
             <img src="./Images/Dishes/Chicken-Biryani.jpg" height={150} />
             <h4>Biryani</h4>
           </a>
-          <a href="./dishes.jsx">
+          <a href="#/dishes">
             <img src="./Images/Dishes/chicken.jpeg" height={150} />
             <h4>Chicken Lolipop</h4>
           </a>
-          <a href="./dishes.jsx">
+          <a href="#/dishes">
             <img src="./Images/Dishes/panner tikka.jpg" height={150} />
             <h4>Panner Tikka</h4>
           </a>
-          <a href="./dishes.jsx">
+          <a href="#/dishes">
             <img src="./Images/Dishes/garlicprawns.jpg" height={150} />
             <h4>Garlic Prawns</h4>
           </a>
-          <a href="./dishes.jsx">
+          <a href="#/dishes">
             <img src="./Images/Dishes/vegpulao.jpg" height={150} />
             <h4>Veg Pulao</h4>
           </a>
-          <a href="./dishes.jsx">
+          <a href="#/dishes">
             <img src="./Images/Dishes/apollo fish.jpg" height={150} />
             <h4>Apollo fish</h4>
           </a>
@@ -81,37 +81,37 @@ export default function Home() {
           <h2>Top Restaurants</h2>
         </div>
         <div className="table1">
-          <a href="./Barbeque.jsx">
+          <a href="#/barbeque">
             <img src="./Images/Restaurants/barbeque.jpg" height={150} />
             <h4>Barbeque</h4>
             <p>tandoori, biryani, Starters</p>
           </a>
-          <a href="./mehfil.jsx">
+          <a href="#/mehfil">
             <img src="./Images/Restaurants/mehfil.jpg" height={150} />
             <h4>Mehfil</h4>
             <p>tandoori, biryani</p>
           </a>
-          <a href="./paradise.jsx">
+          <a href="#/paradise">
             <img src="./Images/Restaurants/paradise.jpg" height={150} />
             <h4>Paradise</h4>
             <p>tandoori, biryani, Starters, deserts</p>
           </a>
-          <a href="./ramkibandi.jsx">
+          <a href="#/ramkibandi">
             <img src="./Images/Restaurants/ramkibandi.jpg" height={150} />
             <h4>Ram Ki Bandi</h4>
             <p>dosa</p>
           </a>
-          <a href="./dominos.jsx">
+          <a href="#/dominos">
             <img src="./Images/Restaurants/dominos.jpg" height={150} />
             <h4>Domino's</h4>
             <p>Pizza, Burger</p>
           </a>
-          <a href="./vantilu.jsx">
+          <a href="#/vantilu">
             <img src="./Images/Restaurants/vantilu.jpeg" height={150} />
             <h4>Vantillu</h4>
             <p>tandoori, biryani, Starters</p>
           </a>
-          <a href="./platform65.jsx">
+          <a href="#/platform65">
             <img src="./Images/Restaurants/platform65.jpg" height={150} />
             <h4>Platform65</h4>
             <p>tandoori, biryani, Starters</p>
@@ -154,7 +154,7 @@ export default function Home() {
           <hr className="line" />
           <div className="box-container">
             <div className="box">
-              <a href="./barbeque.jsx">
+              <a href="#/barbeque">
                 <img src="./Images/Restaurants/barbeque.jpg" />
               </a>
               <h3>Barbeque</h3>
@@ -169,7 +169,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./mehfil.jsx">
+              <a href="#/mehfil">
                 <img src="./Images/Restaurants/mehfil.jpg" />
               </a>
               <h3>Mehfil</h3>
@@ -184,7 +184,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./dominos.jsx">
+              <a href="#/dominos">
                 <img src="./Images/Restaurants/dominos.jpg" />
               </a>
               <h3>Domino's</h3>
@@ -199,7 +199,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./paradise.jsx">
+              <a href="#/paradise">
                 <img src="./Images/Restaurants/paradise.jpg" />
               </a>
               <h3>Paradise</h3>
@@ -214,7 +214,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./ramkibandi.jsx">
+              <a href="#/ramkibandi">
                 <img src="./Images/Restaurants/ramkibandi.jpg" />
               </a>
               <h3>Ram ki Bandi</h3>
@@ -229,7 +229,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./vantilu.jsx">
+              <a href="#/vantilu">
                 <img src="./Images/Restaurants/vantilu.jpeg" />
               </a>
               <h3>Vantillu</h3>
@@ -244,7 +244,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./platform65.jsx">
+              <a href="#/platform65">
                 <img src="./Images/Restaurants/platform65.jpg" />
               </a>
               <h3>Platform 65</h3>
@@ -259,7 +259,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./hoteladaab.jsx">
+              <a href="#/hoteladaab">
                 <img src="./Images/Restaurants/aadab.png" />
               </a>
               <h3>Hotel Adaab</h3>
@@ -274,7 +274,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./fishland.jsx">
+              <a href="#/fishland">
                 <img src="./Images/Restaurants/fishland.jpg" />
               </a>
               <h3>Fish Land</h3>
@@ -289,7 +289,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./hitech.jsx">
+              <a href="#/hitech">
                 <img src="./Images/Restaurants/hitech.jpg" />
               </a>
               <h3>hitech</h3>
@@ -304,7 +304,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./hotnspicy.jsx">
+              <a href="#/hotnspicy">
                 <img src="./Images/Restaurants/hotnspicy.jpg" />
               </a>
               <h3>Hot N Spicy</h3>
@@ -319,7 +319,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./mughal.jsx">
+              <a href="#/mughal">
                 <img src="./Images/Restaurants/mughal.jpg" />
               </a>
               <h3>Mughal Restaurants</h3>
@@ -334,7 +334,7 @@ export default function Home() {
               </div>
             </div>
             <div className="box">
-              <a href="./ksbakers.jsx">
+              <a href="#/ksbakers">
                 <img src="./Images/Restaurants/ksbakers.png" />
               </a>
               <h3>KS Bakers</h3>
@@ -352,9 +352,9 @@ export default function Home() {
         </section>
       </section>
       <div id="about" className="about">
-        <a href="#" className="closebtn" onClick={() => closeNav()}>
+        <a href="#" className="closebtn" onClick={(event) => { event.preventDefault(); closeNav(); }}>
 
-          ×
+          Ã—
         </a>
         <div className="about-overlay">
           <h1>About us</h1>
