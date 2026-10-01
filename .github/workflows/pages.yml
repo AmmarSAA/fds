@@ -1,7 +1,7 @@
 name: Deploy portfolio demo to Pages
 on:
   push:
-    branches: [codex/repair-fds-deployment]
+    branches: [main, codex/repair-fds-deployment]
   workflow_dispatch:
 permissions:
   contents: read
